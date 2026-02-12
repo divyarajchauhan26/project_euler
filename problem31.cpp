@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    vector<int> coins = {1, 2, 5, 10, 20, 50 ,100};
+    vector<int> coins = {1,2,5,10,20,50,100,200};
     int target = 200;
 
     vector<long long> dp(target + 1, 0);
@@ -15,5 +15,5 @@ int main() {
     }
 
     cout << dp[target] << endl;
-    return 0;
 }
+
